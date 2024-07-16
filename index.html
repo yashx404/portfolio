@@ -104,11 +104,9 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const copyEmailButton = document.querySelector('.email');
-        
         copyEmailButton.addEventListener('click', function () {
             // The email to be copied
-            const email = "yashvatsparth@gmail.com"; // Replace with your actual email
-            
+            const email = "yashvatsparth@gmail.com";
             // Create a temporary input element to copy the text
             const tempInput = document.createElement('input');
             document.body.appendChild(tempInput);
@@ -116,9 +114,6 @@
             tempInput.select();
             document.execCommand('copy');
             document.body.removeChild(tempInput);
-            
-            // Optionally, you can show a message or alert
-            alert('Email copied to clipboard: ' + email);
         });
     });
 </script>
