@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Portfo</title>
+    <title>Yash Vats</title>
 </head>
 
 <body>
@@ -101,6 +101,28 @@
         <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
     </footer>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const copyEmailButton = document.querySelector('.email');
+        
+        copyEmailButton.addEventListener('click', function () {
+            // The email to be copied
+            const email = "yash@example.com"; // Replace with your actual email
+            
+            // Create a temporary input element to copy the text
+            const tempInput = document.createElement('input');
+            document.body.appendChild(tempInput);
+            tempInput.value = email;
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            
+            // Optionally, you can show a message or alert
+            alert('Email copied to clipboard: ' + email);
+        });
+    });
+</script>
+    
 </body>
 
 </html>
