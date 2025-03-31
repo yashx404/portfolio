@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,16 +19,15 @@
             <a href="https://linktr.ee/chief404">Contact Me</a>
         </div>
     </nav>
-
     <div class="about">
         <div class="left">
             <h3>Software Developer</h3>
             <div class="info">
-                <h2>I'm Yashchik</h2>
-                <p>I design softwares for seamless and engaging digital experiences. Also, Mitwa is my bebiii</p>
+                <h2>I'm Yash</h2>
+                <p>A focused and goal-oriented professional with zeal to make a winning career in Software/Web Development in IT industry with an organization of repute.</p>
                 <div class="buttons">
                     <button class="hire">
-                        Hire me & MITWA<i class="fas fa-plus"></i>
+                        Hire me<i class="fas fa-plus"></i>
                     </button>
                     <button class="email">
                         Copy Email <i class="far fa-copy"></i>
@@ -42,17 +40,23 @@
             <img src="assets/profile.jpg">
         </div>
     </div>
-
     <div class="works">
         <div class="left">
             <h3><i class="fas fa-circle"></i> Recent Works</h3>
             <div class="works-list">
                 <div class="item">
                     <div class="work-info">
-                        <h5 class="active">Technical Manager</h5>
+                        <h5 class="work-info">Technical Manager</h5>
                         <p>May 2024 - Present</p>
                     </div>
-                    <p>Silvertouch Technologies</p>
+                    <p>Silver Touch Technologies</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="work-info">Software Engineer</h5>
+                        <p>July 2023 - April 2024</p>
+                    </div>
+                    <p>Krish Egg and Tradin Co.</p>
                 </div>
                 <div class="item">
                     <div class="work-info">
@@ -63,13 +67,11 @@
                 </div>
             </div>
         </div>
-
         <div class="right">
             <div class="item">
                 <a href="#">About My Work</a>
                 <p>A software engineer with full focus on Full Stack. Seeking role in Software Development, Web Development, Coding, Programming, Software Development Lifecycle. Application Development (React, Python, Java, C++, PHP, SQL, HTML, MongoDB)
                 </p>
-
             </div>
             <div class="item">
                 <a href="#">Design Solutions</a>
@@ -90,34 +92,30 @@
         </div>
 
     </div>
-
     <footer>
-        <a href="assets/Yash_Vats.pdf" download="Yash_Vats.pdf">My Resume</a>
+        <button class="resume"><a href="assets/Yash_Vats.pdf" download="Yash_Vats.pdf">My Resume </a><i class="fas fa-download"></i></button>
         <div class="socials">
-            <a href="https://github.com/chiefx404">Github</a>
+            <a href="https://github.com/yashx404">Github</a>
             <a href="https://instagram.com/chief.404">Instagram</a>
             <a href="https://linkedin.com/in/yash-vats404">LinkedIn</a>
         </div>
         <a class="online" href="#"><i class="fas fa-circle"></i> Available For Job</a>
     </footer>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const copyEmailButton = document.querySelector('.email');
-        copyEmailButton.addEventListener('click', function () {
-            // The email to be copied
-            const email = "yashvatsparth@gmail.com";
-            // Create a temporary input element to copy the text
-            const tempInput = document.createElement('input');
-            document.body.appendChild(tempInput);
-            tempInput.value = email;
-            tempInput.select();
-            document.execCommand('copy');
-            document.body.removeChild(tempInput);
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const copyEmailButton = document.querySelector('.email');
+            copyEmailButton.addEventListener('click', function () {
+                // The email to be copied
+                const email = "yashvatsparth@gmail.com";
+                // Create a temporary input element to copy the text
+                const tempInput = document.createElement('input');
+                document.body.appendChild(tempInput);
+                tempInput.value = email;
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+            });
         });
-    });
-</script>
-    
+    </script>
 </body>
-
 </html>

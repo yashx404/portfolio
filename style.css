@@ -278,6 +278,13 @@ footer a.online i{
     font-size: 15px;
 }
 
+button{
+    color: white;
+    background-color: #4CAF50;
+    padding: 12px;
+    border-radius: 10px;
+}
+
 footer{
     margin-top: 20px;
     display: flex;
